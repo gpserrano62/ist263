@@ -1,0 +1,33 @@
+body{
+    background-color:#651F71;
+}
+
+
+p, li{
+    color:#F3F3F3;
+}
+
+a{
+    color:#A82F61;
+}
+
+h1, h2{
+    color:#F3F3F3;
+}
+
+nav{
+    background-color:#DE528C;
+    padding: 10px;
+}
+
+nav a {
+    color: #7037CD
+}
+
+nav a:hover {
+    background-color: #68B2F8;
+}
+
+nav {
+    margin-bottom: 30px
+}
