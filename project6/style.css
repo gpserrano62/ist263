@@ -1,0 +1,50 @@
+body{
+    background-color: #edd5ba;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav{
+    background-color: #edbad2;
+    color:#000000;
+    display:flex;
+    justify-content: space-around;
+}
+
+header h1, .mainblurb{
+    text-align: center;
+}
+
+.flex1{
+    background-color:#edbcba ;
+    border-radius: 10px;
+    padding:10px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.recs p{
+    text-align: right;
+}
+
+.recs img{
+    width:300px;
+    height:auto;
+}
+
+
+/**display:flex;
+flex-direction:column;**/
+
+.tips{
+    background-color:#edbcba ;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+header h1{
+    background-color:#ebf2fa ;
+    border-radius: 10px;
+}
+
