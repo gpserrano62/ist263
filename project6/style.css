@@ -10,31 +10,71 @@ nav{
     justify-content: space-around;
 }
 
+nav a{
+    color: #000000;
+    text-decoration: none;
+}
+
 header h1, .mainblurb{
     text-align: center;
 }
 
-
-
-.recs p{
-    text-align: right;
+.text1{
+    flex: 1;
+    padding: 10px;
+    justify-content: flex-start;
 }
 
-.recs img{
-    width:300px;
-    height:auto;
+.text2{
+    flex: 1;
+    padding: 10px;
+    justify-content: flex-end;
 }
 
-/**display:flex;
-flex-direction:column;**/
+.tips{
+    flex-direction: row-reverse;
+}
 
 .recs, .tips{
     background-color:#edbcba ;
     border-radius: 10px;
     padding: 10px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
 }
 
 header h1{
     background-color:#ebf2fa ;
     border-radius: 10px;
 }
+
+@media (max-width: 768px){
+    nav ul{
+        flex-direction: column;
+        align-items: center;
+    }
+    .recs, .tips{
+        flex-direction: column;
+    }
+    .text1, .text2{
+        justify-content: center;
+    }
+}
+
+.row1{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.row2{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
